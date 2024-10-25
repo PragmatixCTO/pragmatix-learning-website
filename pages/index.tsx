@@ -54,12 +54,12 @@ export default function LandingPage() {
               <p className="text-xl mb-8">
                 We will help you get your dream job.
               </p>
-              <Link href="/get-started" passHref legacyBehavior>
-                <Button as="a" className="bg-[#F0C808] text-[#264B78] hover:bg-[#E85F5C] hover:text-white transition-colors text-lg px-8 py-3">
-                  Shall we get started?
-                  <ChevronRight className="ml-2 h-5 w-5" />
-                </Button>
-              </Link>
+              <Button asChild className="bg-[#F0C808] text-[#264B78] hover:bg-[#E85F5C] hover:text-white transition-colors text-lg px-8 py-3">
+  <Link href="/get-started">
+    Shall we get started?
+    <ChevronRight className="ml-2 h-5 w-5" />
+  </Link>
+</Button>
             </div>
             <div className="md:w-1/2">
               <Image
@@ -135,12 +135,12 @@ export default function LandingPage() {
               Join our community of learners and achieve your professional goals with our
               industry-leading programs and expert guidance.
             </p>
-            <Link href="/get-started" passHref>
-              <Button className="bg-[#F0C808] text-[#264B78] hover:bg-[#E85F5C] hover:text-white transition-colors text-lg px-8 py-3">
-                Get started today!
-                <ChevronRight className="ml-2 h-5 w-5" />
-              </Button>
-            </Link>
+            <Button asChild className="bg-[#F0C808] text-[#264B78] hover:bg-[#E85F5C] hover:text-white transition-colors text-lg px-8 py-3">
+  <Link href="/get-started">
+    Get started today!
+    <ChevronRight className="ml-2 h-5 w-5" />
+  </Link>
+</Button>
           </div>
         </section>
       </main>
