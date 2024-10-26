@@ -8,14 +8,14 @@ import { ChevronLeft, GraduationCap, Users, Video } from "lucide-react"
 const GetStartedPage: NextPage = () => {
   return (
     <div className="flex flex-col min-h-screen bg-[#F4F4F4]">
-      <header className="bg-white shadow-sm sticky top-0 z-10">
+      <header className="bg-white shadow-sm top-0 z-10">
         <div className="container mx-auto px-4 py-4 flex justify-center items-center">
           <Image
-            src="/images/high-quality-logo.png"
+            src="/images/logo.jpg"
             alt="Pragmatix Learning Logo"
             width={200}
             height={50}
-            className="h-12 w-auto"
+            className="h-24 w-auto"
             priority
           />
         </div>
@@ -63,13 +63,13 @@ const GetStartedPage: NextPage = () => {
       <footer className="bg-[#264B78] text-white py-8">
         <div className="container mx-auto px-4 flex flex-col items-center">
           <Image
-            src="/images/high-quality-logo.png"
+            src="/images/logoblack.jpg"
             alt="Pragmatix Learning Logo"
             width={150}
             height={40}
-            className="h-8 w-auto mb-4"
+            className="h-32 w-auto mb-4"
           />
-          <p className="text-sm mb-2">Empowering careers through innovative learning solutions.</p>
+          <p className="text-med mb-2">3 lakh and counting - the number of candidates who have benefited from our programs.</p>
           <p className="text-xs">&copy; {new Date().getFullYear()} Pragmatix Learning. All rights reserved.</p>
         </div>
       </footer>
