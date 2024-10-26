@@ -8,12 +8,12 @@ export default function PragmatixPro() {
     <div className="flex flex-col min-h-screen bg-[#F4F4F4]">
       <header className="bg-[#1e4976] py-4">
         <div className="container mx-auto px-4">
-          <Link href="/" passHref legacyBehavior>
-            <Button as="a" variant="ghost" className="text-white">
-              <ChevronLeft className="mr-2 h-4 w-4" />
-              Back to Home
-            </Button>
-          </Link>
+        <Link href="/" className="inline-block">
+  <Button variant="ghost" className="text-white">
+    <ChevronLeft className="mr-2 h-4 w-4" />
+    Back to Home
+  </Button>
+</Link>
         </div>
       </header>
 
