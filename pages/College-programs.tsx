@@ -38,7 +38,7 @@ export default function PragmatixPro() {
           </div>
           <div>
             <Image
-              src="/placeholder.svg?height=400&width=600"
+              src="/images/logo.jpg"
               alt="Pragmatix Pro"
               width={600}
               height={400}

@@ -31,19 +31,21 @@ export default function PragmatixPro() {
               <li>Resume and Interview Preparation</li>
               <li>Approachable, Friendly and Seasoned Mentors</li>
             </ul>
-            <Button className="bg-[#0D98B9] text-white hover:bg-[#264B78] transition-colors">
-              Enroll Now
+            <Button className="bg-[#0D98B9] text-white hover:bg-[#264B78] transition-colors"
+            onClick={() => window.location.href = 'https://pragmatixlearning.zohobookings.com/#/pragmatixlearning'}>
+             Book a free session!
             </Button>
           </div>
           <div>
             <Image
-              src="/placeholder.svg?height=400&width=600"
+              src="/images/mentoring.jpeg"
               alt="Pragmatix Pro"
               width={600}
               height={400}
               className="rounded-lg shadow-lg"
             />
           </div>
+          <div><iframe width='100%' height='750px' src='https://pragmatixlearning.zohobookings.com/portal-embed#/4687225000000037054' > </iframe></div>
         </div>
       </main>
 

@@ -40,7 +40,7 @@ export default function LandingPage() {
             alt="Pragmatix Learning Logo"
             width={200}
             height={50}
-            className="h-24 w-auto"
+            className="h-32 w-auto"
             priority
           />
         </div>
@@ -57,7 +57,7 @@ export default function LandingPage() {
               <p className="text-xl mb-8">
                 Pragmatix Pro - we will help you get your dream job. 
               </p>
-              <Button asChild className="bg-[#F0C808] text-[#264B78] hover:bg-[#E85F5C] hover:text-white transition-colors text-2xl px-20 py-6">
+              <Button asChild className="bg-[#F0C808] text-[#264B78] hover:bg-[#E85F5C] hover:text-white transition-colors text-xl px-20 py-6">
   <Link href="/pragmatix-pro">
     Shall we get started?
   </Link>
@@ -81,7 +81,7 @@ export default function LandingPage() {
             <div className="md:w-1/2 mb-8 md:mb-0">
               <div className="rounded-lg overflow-hidden shadow-2xl">
               <Image
-                src="/images/hero-image.jpeg" // Replace with your actual hero image path
+                src="/images/learntransformachieve.jpeg" // Replace with your actual hero image path
                 alt="Students learning"
                 width={600}
                 height={400}
@@ -98,9 +98,9 @@ export default function LandingPage() {
                 Through the various packages that we offer, we will you identify gaps that are impeding your growth journey, and get you all set to have a crack at your dream job.
               </p>
               <p className="text-lg text-[#333333] mb-4">
-                And did we tell you that you can get a free 30 minute consultation - get a taste of what we have to offer before taking a decision.
+                And did we tell you that you can get a free 30 minute consultation? Get a taste of what we have to offer before taking a decision.
               </p>
-              <Button asChild className="bg-[#E85F5C] text-[#264B78] hover:bg-[#F0C808] hover:text-white transition-colors text-2xl px-20 py-6">
+              <Button asChild className="bg-[#E85F5C] text-[#264B78] hover:bg-[#F0C808] hover:text-white transition-colors text-xl px-20 py-6">
   <Link href="/pragmatix-pro">
     Explore Pragmatix Pro!
   </Link>
@@ -149,7 +149,7 @@ export default function LandingPage() {
             <p className="text-2xl mb-12 max-w-2xl mx-auto">
               Allow our panel of industry experts and seasoned career coaches to help you achieve your professional goals.
             </p>
-            <Button asChild className="bg-[#F0C808] text-[#264B78] hover:bg-[#E85F5C] hover:text-white transition-colors text-3xl px-8 py-3">
+            <Button asChild className="bg-[#F0C808] text-[#264B78] hover:bg-[#E85F5C] hover:text-white transition-colors text-2xl px-8 py-3">
   <Link href="/One-to-one-mentoring">
     Get started today!
   </Link>
